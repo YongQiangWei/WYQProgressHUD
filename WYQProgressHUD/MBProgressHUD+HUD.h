@@ -1,17 +1,16 @@
 //
-//  MBProgressHUD+OperationHUD.h
-//  MBProgressHUDCategory
+//  MBProgressHUD+HUD.h
+//  WYQProgressHUD
 //
-//  Created by Yongqiang Wei on 2018/12/10.
-//  Copyright © 2018 Yongqiang Wei. All rights reserved.
+//  Created by YongQiang Wei on 2019/7/24.
+//  Copyright © 2019 YongQiang Wei. All rights reserved.
 //
 
 #import "MBProgressHUD.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MBProgressHUD (OperationHUD)
-
+@interface MBProgressHUD (HUD)
 + (void)showSuccess:(NSString *)success toView:(UIView * __nullable)view;
 
 + (void)showError:(NSString *)error toView:(UIView * __nullable)view;
@@ -29,7 +28,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)hideHUD;
 
 + (void)showAlertMessage:(NSString *)alert;
-
 @end
 
 NS_ASSUME_NONNULL_END

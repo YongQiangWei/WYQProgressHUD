@@ -1,14 +1,14 @@
 //
-//  MBProgressHUD+OperationHUD.m
-//  MBProgressHUDCategory
+//  MBProgressHUD+HUD.m
+//  WYQProgressHUD
 //
-//  Created by Yongqiang Wei on 2018/12/10.
-//  Copyright © 2018 Yongqiang Wei. All rights reserved.
+//  Created by YongQiang Wei on 2019/7/24.
+//  Copyright © 2019 YongQiang Wei. All rights reserved.
 //
 
-#import "MBProgressHUD+OperationHUD.h"
+#import "MBProgressHUD+HUD.h"
 
-@implementation MBProgressHUD (OperationHUD)
+@implementation MBProgressHUD (HUD)
 
 #pragma mark 显示信息
 + (void)show:(NSString *)text icon:(NSString *)icon view:(UIView *)view
@@ -80,5 +80,6 @@
 {
     [self show:alert icon:nil view:nil];
 }
+
 
 @end
